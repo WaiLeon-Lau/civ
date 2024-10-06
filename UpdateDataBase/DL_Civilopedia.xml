@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+    <!-- Add general mod introduction under Concepts section. -->
+    <!-- Add Pages=PageLayoutId -->
+    <CivilopediaPageLayouts>
+        <Row PageLayoutId="HDHighlights" ScriptTemplate="Simple" />
+        <Row PageLayoutId="HDGameProgress" ScriptTemplate="Simple" />
+        <Row PageLayoutId="HDMapGeneration" ScriptTemplate="Simple" />
+        <Row PageLayoutId="HDTerrainsFeatures" ScriptTemplate="Simple" />
+        <Row PageLayoutId="HDCitiesRelated" ScriptTemplate="Simple" />
+        <Row PageLayoutId="HDCityNewContent" ScriptTemplate="Simple" />
+        <Row PageLayoutId="HDAIAdjustments" ScriptTemplate="Simple" />
+        <Row PageLayoutId="HDRoadsAndTrader" ScriptTemplate="Simple" />
+        <Row PageLayoutId="HDOthers" ScriptTemplate="Simple" />
+    </CivilopediaPageLayouts>
+    <!-- Add Section Title=ChapterId -->
+    <CivilopediaPageLayoutChapters>
+        <Row PageLayoutId="HDHighlights" ChapterId="GOVERNORS" SortIndex="1"/>
+        <Row PageLayoutId="HDGameProgress" ChapterId="INTRO" SortIndex="1"/>
+        <Row PageLayoutId="HDGameProgress" ChapterId="HARVEST" SortIndex="2"/>
+        <Row PageLayoutId="HDGameProgress" ChapterId="PILLAGE" SortIndex="3"/>
+        <Row PageLayoutId="HDGameProgress" ChapterId="DISTRICTS" SortIndex="4"/>
+        <Row PageLayoutId="HDGameProgress" ChapterId="PROJECTS" SortIndex="5"/>
+        <Row PageLayoutId="HDMapGeneration" ChapterId="GENERAL" SortIndex="1"/>
+        <Row PageLayoutId="HDMapGeneration" ChapterId="STARTING" SortIndex="2"/>
+        <Row PageLayoutId="HDMapGeneration" ChapterId="SPECIFIC" SortIndex="3"/>
+        <Row PageLayoutId="HDMapGeneration" ChapterId="NEW_MAPS" SortIndex="4"/>
+        <Row PageLayoutId="HDTerrainsFeatures" ChapterId="YIELDS" SortIndex="1"/>
+        <Row PageLayoutId="HDTerrainsFeatures" ChapterId="HARVEST" SortIndex="2"/>
+        <Row PageLayoutId="HDCitiesRelated" ChapterId="POPULATION" SortIndex="1"/>
+        <Row PageLayoutId="HDCitiesRelated" ChapterId="PLOTS" SortIndex="2"/>
+        <Row PageLayoutId="HDCitiesRelated" ChapterId="CITIZEN" SortIndex="3"/>
+        <Row PageLayoutId="HDCitiesRelated" ChapterId="AMENITY" SortIndex="4"/>
+        <Row PageLayoutId="HDCitiesRelated" ChapterId="MAINTENANCE" SortIndex="5"/>
+        <Row PageLayoutId="HDCityNewContent" ChapterId="CC_BUILDINGS" SortIndex="1"/>
+        <Row PageLayoutId="HDCityNewContent" ChapterId="CITY_POLICY" SortIndex="2"/>
+        <Row PageLayoutId="HDAIAdjustments" ChapterId="EVALUATION" SortIndex="1"/>
+        <Row PageLayoutId="HDAIAdjustments" ChapterId="BUFFS" SortIndex="2"/>
+        <Row PageLayoutId="HDRoadsAndTrader" ChapterId="ROADS" SortIndex="1"/>
+        <Row PageLayoutId="HDRoadsAndTrader" ChapterId="TRADER" SortIndex="2"/>
+        <Row PageLayoutId="HDOthers" ChapterId="GOODYHUTS" SortIndex="1"/>
+        <Row PageLayoutId="HDOthers" ChapterId="CITYSTATES" SortIndex="2"/>
+        <Row PageLayoutId="HDOthers" ChapterId="TECH_CIVIC" SortIndex="3"/>
+        <Row PageLayoutId="HDOthers" ChapterId="NATURAL_DISASTER" SortIndex="4"/>
+        <Row PageLayoutId="HDOthers" ChapterId="GAME_OPTIONS" SortIndex="5"/>
+    </CivilopediaPageLayoutChapters>
+    <CivilopediaPageGroups>
+        <Row SectionID="CONCEPTS" PageGroupId="HD" Name="LOC_PEDIA_CONCEPTS_PAGEGROUP_HD_NAME" Tooltip="" VisibleIfEmpty="true" SortIndex="4"/>
+    </CivilopediaPageGroups>
+    <CivilopediaPages>
+        <Row SectionId="CONCEPTS" PageId="HD_INTRODUCTION" PageGroupId="HD" PageLayoutId="Simple"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_INTRODUCTION_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="1"/>
+        <Row SectionId="CONCEPTS" PageId="HD_HIGHLIGHTS" PageGroupId="HD" PageLayoutId="HDHighlights"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_HIGHLIGHTS_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="2"/>
+        <Row SectionId="CONCEPTS" PageId="HD_GAME_PROGRESS" PageGroupId="HD" PageLayoutId="HDGameProgress"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_GAME_PROGRESS_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="3"/>
+        <Row SectionId="CONCEPTS" PageId="HD_MAP_GENERATION" PageGroupId="HD" PageLayoutId="HDMapGeneration"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_MAP_GENERATION_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="4"/>
+        <Row SectionId="CONCEPTS" PageId="HD_TERRAINS_FEATURES" PageGroupId="HD" PageLayoutId="HDTerrainsFeatures"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_TERRAINS_FEATURES_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="5"/>
+        <Row SectionId="CONCEPTS" PageId="HD_CITIES_RELATED" PageGroupId="HD" PageLayoutId="HDCitiesRelated"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_CITIES_RELATED_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="6"/>
+        <!-- <Row SectionId="CONCEPTS" PageId="HD_MAINTENANCE" PageGroupId="HD" PageLayoutId="Simple"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_MAINTENANCE_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="6"/> -->
+        <Row SectionId="CONCEPTS" PageId="HD_CITY_NEW_CONTENT" PageGroupId="HD" PageLayoutId="HDCityNewContent"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_CITY_NEW_CONTENT_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="7"/>
+        <Row SectionId="CONCEPTS" PageId="HD_BARBARIAN" PageGroupId="HD" PageLayoutId="Simple"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_BARBARIAN_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="8"/>
+        <Row SectionId="CONCEPTS" PageId="HD_AI_ADJUSTMENTS" PageGroupId="HD" PageLayoutId="HDAIAdjustments"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_AI_ADJUSTMENTS_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="9"/>
+        <Row SectionId="CONCEPTS" PageId="HD_ROADS_AND_TRADER" PageGroupId="HD" PageLayoutId="HDRoadsAndTrader"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_ROADS_AND_TRADER_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="10"/>
+        <Row SectionId="CONCEPTS" PageId="HD_ERAS_RELATED" PageGroupId="HD" PageLayoutId="Simple"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_ERAS_RELATED_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="11"/>
+        <Row SectionId="CONCEPTS" PageId="HD_DIPLOMACY" PageGroupId="HD" PageLayoutId="Simple"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_DIPLOMACY_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="12"/>
+        <Row SectionId="CONCEPTS" PageId="HD_MILITARY" PageGroupId="HD" PageLayoutId="Simple"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_MILITARY_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="13"/>
+        <Row SectionId="CONCEPTS" PageId="HD_OTHERS" PageGroupId="HD" PageLayoutId="HDOthers"  Name="LOC_PEDIA_CONCEPTS_PAGE_HD_OTHERS_CHAPTER_CONTENT_TITLE" Tooltip="" SortIndex="14"/>
+    </CivilopediaPages>
+    <!-- TODO: Add search terms. e.g. search CITY_POLICY_SECTION_1 title will show CITY_POLICY under search result, clicking it direct to CITY_POLICY page -->
+    <!-- <CivilopediaPageSearchTerms>
+        <Row SectionId="CONCEPTS" PageId="CITY_POLICY" Term="LOC_PEDIA_CONCEPTS_PAGE_CITY_POLICY_CHAPTER_CITY_POLICY_SECTION_1_TITLE"/>
+    </CivilopediaPageSearchTerms> -->
+    
+    <!-- Exclude city policies from Buildings section -->
+    <CivilopediaPageQueries>
+        <Delete SectionId="BUILDINGS" />
+        <Row SectionId="BUILDINGS" PageGroupIdColumn="PageGroupId" TooltipColumn="Tooltip" SortIndex="10">
+            <SQL>SELECT BuildingType as PageId, PreReqDistrict as PageGroupId, "Building" as PageLayoutId, Name, null as Tooltip FROM Buildings Where IsWonder = 0 AND InternalOnly = 0 AND BuildingType NOT LIKE "BUILDING_CITY_POLICY_%" AND BuildingType != "BUILDING_JNR_MILL_RACE" AND BuildingType != "BUILDING_JNR_WHARF_BASE" AND BuildingType != "BUILDING_CANAL" AND BuildingType NOT LIKE "BUILDING_%_DUMMY%" AND BuildingType !="BUILDING_INTERNATIONAL_AIRPORT_DUMMY"</SQL>
+        </Row>
+        <Delete SectionId="GREATPEOPLE" />
+        <Row SectionId="GREATPEOPLE" PageGroupIdColumn="PageGroupId" TooltipColumn="Tooltip" SortIndexColumn="SortIndex" SortIndex="10">
+            <SQL>SELECT GreatPersonIndividualType as PageId, GreatPersonClassType as PageGroupId, "GreatPerson" as PageLayoutId, GreatPersonIndividuals.Name, null as Tooltip, Eras.ChronologyIndex as SortIndex FROM GreatPersonIndividuals INNER JOIN Eras ON GreatPersonIndividuals.EraType = Eras.EraType ORDER BY Eras.ChronologyIndex</SQL>
+        </Row>
+    </CivilopediaPageQueries>
+
+    <!-- Add city policies to Governments section -->
+    <CivilopediaPageGroups>
+        <Row SectionID="GOVERNMENTS" PageGroupId="CITY_POLICIES" Name="LOC_PEDIA_GOVERNMENTS_PAGEGROUP_CITY_POLICIES_NAME" Tooltip="" VisibleIfEmpty="true" SortIndex="70" />
+    </CivilopediaPageGroups>
+    <CivilopediaPageQueries>
+        <Row SectionId="GOVERNMENTS" PageGroupIdColumn="PageGroupId" TooltipColumn="Tooltip" SortIndex="10">
+            <SQL>SELECT BuildingType as PageId, "CITY_POLICIES" as PageGroupId, "Building" as PageLayoutId, Name, null as Tooltip FROM Buildings WHERE BuildingType LIKE "BUILDING_CITY_POLICY_%"</SQL>
+        </Row>
+    </CivilopediaPageQueries>
+
+</GameInfo>
